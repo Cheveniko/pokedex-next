@@ -23,7 +23,7 @@ export function PokemonList() {
           // setNumber(number + 1);
         })
     );
-    setTimeout((res) => {
+    setTimeout(() => {
       setLoading(false);
     }, 5000);
   }, []); // [number]
